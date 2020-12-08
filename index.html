@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/images/logo_sur.png" type="image/png">
         
     <!--====== Animate CSS ======-->
     <link rel="stylesheet" href="assets/css/animate.css">
@@ -36,6 +36,9 @@
     
     <!--====== Style CSS ======-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/mail_contact.css">
     
 </head>
 
@@ -75,7 +78,7 @@
                     <div class="col-lg-12">
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo.svg" alt="Logo">
+                                <img src="assets/images/logo-sur-white.png" width="50" height="50">
                             </a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
@@ -86,7 +89,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ml-auto">
                                     <li class="nav-item active">
-                                        <a class="page-scroll" href="index.html">Inicio</a>
+                                        <a class="page-scroll" href="#home">Inicio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="page-scroll" href="#features">Ventajas</a>
@@ -606,45 +609,33 @@
                 <div class="col-lg-4 col-md-7">
                     <div class="single-blog mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                         <div class="blog-image">
-                            <img src="assets/images/blog-1.jpg" alt="blog">
+                            <img src="assets/images/blog/blog_1.jpg" alt="blog">
                         </div>
                         <div class="blog-content">
-                            <ul class="meta">
-                                <li>Posted By: <a href="#">Admin</a></li>
-                                <li>03 June, 2023</li>
-                            </ul>
                             <p class="text">Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod tempor invidunt labore.</p>
-                            <a class="more" href="#">Learn More <i class="lni-chevron-right"></i></a>
+                            <i>03 diciembre, 2020</i>
                         </div>
                     </div> <!-- single blog -->
                 </div> 
                 <div class="col-lg-4 col-md-7">
                     <div class="single-blog mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
                         <div class="blog-image">
-                            <img src="assets/images/blog-2.jpg" alt="blog">
+                            <img src="assets/images/blog/blog_1.jpg" alt="blog">
                         </div>
                         <div class="blog-content">
-                            <ul class="meta">
-                                <li>Posted By: <a href="#">Admin</a></li>
-                                <li>03 June, 2023</li>
-                            </ul>
                             <p class="text">Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod tempor invidunt labore.</p>
-                            <a class="more" href="#">Learn More <i class="lni-chevron-right"></i></a>
+                            <i>03 diciembre, 2020</i>
                         </div>
                     </div> <!-- single blog -->
                 </div> 
                 <div class="col-lg-4 col-md-7">
                     <div class="single-blog mt-30 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                         <div class="blog-image">
-                            <img src="assets/images/blog-3.jpg" alt="blog">
+                            <img src="assets/images/blog/blog_1.jpg" alt="blog">
                         </div>
                         <div class="blog-content">
-                            <ul class="meta">
-                                <li>Posted By: <a href="#">Admin</a></li>
-                                <li>03 June, 2023</li>
-                            </ul>
                             <p class="text">Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod tempor invidunt labore.</p>
-                            <a class="more" href="#">Learn More <i class="lni-chevron-right"></i></a>
+                            <i>03 diciembre, 2020</i>
                         </div>
                     </div> <!-- single blog -->
                 </div> 
@@ -662,13 +653,35 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="subscribe-content mt-45">
-                            <h2 class="subscribe-title">Contactanos<br> <span>envia un mail</span></h2>
+                            <h2 class="subscribe-title">Contactanos <span>envia un mail</span></h2>
                         </div>
                     </div>
-                    <div>
-
-                        <img src="assets/images/logo.svg">
-
+                    <div class="wrap-contact100">
+                        <form class="contact100-form validate-form">
+                            <div class="wrap-input100 validate-input" data-validate="Name is required">
+                                <input class="input100" type="text" name="name" placeholder="Nombre">
+                                <span class="focus-input100-1"></span>
+                                <span class="focus-input100-2"></span>
+                            </div>
+            
+                            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                                <input class="input100" type="text" name="email" placeholder="Email">
+                                <span class="focus-input100-1"></span>
+                                <span class="focus-input100-2"></span>
+                            </div>
+            
+                            <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                                <textarea class="input100" name="message" placeholder="Mensaje"></textarea>
+                                <span class="focus-input100-1"></span>
+                                <span class="focus-input100-2"></span>
+                            </div>
+            
+                            <div class="container-contact100-form-btn">
+                                <button class="contact100-form-btn">
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
                     </div>
                  </div> <!-- row -->
             </div> <!-- subscribe area -->
@@ -677,7 +690,7 @@
                     <div class="col-lg-4 col-md-6 col-sm-8">
                         <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                             <a class="logo" href="#">
-                                <img src="assets/images/logo.svg" alt="logo">
+                                <img src="assets/images/logo_sur.png" alt="logo">
                             </a>
                             <p class="text">Diseñamos lo que queres tener, renderizamos lo que queres ver, y te entregamos lo que necesitas</p>
                             <ul class="social">

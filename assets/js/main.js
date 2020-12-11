@@ -1,3 +1,7 @@
+function sendMail(){
+    window.open('mailto:test@example.com?subject=subject&body=body'); 
+}
+
 $(function () {
 
     "use strict";

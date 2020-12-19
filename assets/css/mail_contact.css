@@ -1,20 +1,4 @@
 
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: JosefinSans-Bold;
-  src: url('../fonts/JosefinSans/JosefinSans-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Oswald-Medium;
-  src: url('../fonts/oswald/Oswald-Medium.ttf'); 
-}
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -26,13 +10,10 @@
 
 body, html {
 	height: 100%;
-	font-family: JosefinSans-Bold, sans-serif;
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: JosefinSans-Bold;
-	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -56,8 +37,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: JosefinSans-Bold;
-	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -157,8 +136,6 @@ iframe {
 
 .contact100-form-title {
   display: block;
-  font-family: JosefinSans-Bold;
-  font-size: 30px;
   color: #333333;
   line-height: 1.2;
   text-align: left;
@@ -180,8 +157,6 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: JosefinSans-Bold;
-  font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
 }
@@ -312,8 +287,6 @@ textarea.input100 {
   position: relative;
   padding-left: 32px;
   cursor: pointer;
-  font-family: Oswald-Medium;
-  font-size: 15px;
   color: #1b3815;
   line-height: 1.2;
   margin: 0;
@@ -321,8 +294,6 @@ textarea.input100 {
 
 .label-checkbox100::before {
   content: "\f00c";
-  font-family: FontAwesome;
-  font-size: 15px;
   color: transparent;
   display: -webkit-box;
   display: -webkit-flex;
@@ -374,9 +345,6 @@ textarea.input100 {
   min-width: 160px;
   height: 42px;
   background-color: #57b846;
-
-  font-family: JosefinSans-Bold;
-  font-size: 14px;
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
@@ -425,10 +393,7 @@ textarea.input100 {
   transform: translateY(-50%);
   right: 2px;
   pointer-events: none;
-
-  font-family: JosefinSans-Bold;
   color: #c80000;
-  font-size: 13px;
   line-height: 1.4;
   text-align: left;
 
@@ -443,11 +408,9 @@ textarea.input100 {
 
 .alert-validate::after {
   content: "\f12a";
-  font-family: FontAwesome;
   display: block;
   position: absolute;
   color: #c80000;
-  font-size: 16px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);

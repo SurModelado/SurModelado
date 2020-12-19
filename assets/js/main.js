@@ -1,6 +1,6 @@
 function sendMail(){
 
-    window.open('mailto:'+ document.getElementById("contactEmail").value +'?subject=' + document.getElementById("contactName").value + ' &body=' + document.getElementById("contactSubject").value); 
+    window.open('mailto:sur.modelado@gmail.com?subject=' + document.getElementById("contactName").value + ' - ' + document.getElementById("contactAffair").value + ' &body=' + document.getElementById("contactSubject").value); 
 }
 
 $(function () {

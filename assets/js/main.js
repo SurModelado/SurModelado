@@ -1,5 +1,6 @@
 function sendMail(){
-    window.open('mailto:test@example.com?subject=subject&body=body'); 
+
+    window.open('mailto:'+ document.getElementById("contactEmail").value +'?subject=' + document.getElementById("contactName").value + ' &body=' + document.getElementById("contactSubject").value); 
 }
 
 $(function () {
